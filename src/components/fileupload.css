@@ -2,3 +2,23 @@
     color: rgb(221, 4, 4);
     font-style: italic;
 }
+.image-container img{
+    width: 200px;
+}
+.images-collection {
+    display: grid;
+    padding: 0 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.77rem 1rem;
+}
+
+.loading-gallery{
+    text-align: center;
+    color: green;
+}
+#popup-root .popup-content{
+    padding: 50px;
+}
+#popup-root .popup-content input {
+    color: black;
+}
