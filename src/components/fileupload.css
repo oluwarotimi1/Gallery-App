@@ -14,11 +14,19 @@
 
 .loading-gallery{
     text-align: center;
-    color: green;
+    color: #fff;
+    font-size: larger;
 }
 #popup-root .popup-content{
     padding: 50px;
 }
 #popup-root .popup-content input {
     color: black;
+}
+.upload-success{
+    color: rgb(2, 98, 2);
+}
+.refresh-upload{
+    color: rgba(150, 2, 2, 0.574);
+    font-size: smaller;
 }
